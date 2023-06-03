@@ -1,0 +1,56 @@
+---
+import Button from "./Button.astro";
+---
+
+<section
+  class="w-full h-screen hero-background-mobile flex flex-col justify-center items-center"
+>
+  <div>
+    <img src="images/logo.svg" alt="logo" />
+  </div>
+  <div class="flex flex-col items-center justify-center py-4">
+    <div class="text-center py-4">
+      <h1 class="text-3xl font-semibold text-dark-grayish-blue mb-4">
+        A history of everything you copy
+      </h1>
+      <p class="text-grayish-blue">
+        Clipboard allows you to track and organize everything you copy.
+        Instantly access your clipboard on all your devices.
+      </p>
+    </div>
+    <div class="py-4 flex flex-col gap-4 w-full">
+      <Button
+        textButton={"Download for iOS"}
+        ,
+        colorBg={"bg-strong-cyan"}
+        ,
+        borderBg={"[#1b9685]"}
+        ,
+        hoverBg={"[#2cd1b9]"}
+      />
+      <Button
+        textButton={"Download for Mac"}
+        ,
+        colorBg={"bg-light-blue"}
+        ,
+        borderBg={"[#4754b7]"}
+        ,
+        hoverBg={"[#808eff]"}
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-background-mobile {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
+
+  .hero-background-desktop {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
+</style>
