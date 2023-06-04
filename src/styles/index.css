@@ -1,9 +1,0 @@
-.hero-background-mobile {
-  background-image: url(images/bg-header-mobile.png);
-}
-
-@media (min-width: 768px) {
-  .hero-background-desktop {
-    background-image: url(images/bg-header-desktop.png);
-  }
-}
