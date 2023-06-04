@@ -12,6 +12,10 @@ module.exports = {
         "dark-grayish-blue": "hsl(210, 10%, 33%)",
         "grayish-blue": "hsl(201, 11%, 66%)",
       },
+      backgroundImage: {
+        "hero-mobile": "url('images/bg-header-mobile.png')",
+        "hero-desktop": "url('images/bg-header-desktop.png')",
+      },
     },
   },
   plugins: [],

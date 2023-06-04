@@ -2,34 +2,34 @@
 import Button from "./Button.astro";
 ---
 
-<section class="mx-auto">
+<section class="mx-auto lg:px-56">
   <div class="text-center">
     <h2 class="font-semibold text-dark-grayish-blue text-3xl pb-4">
       Clipboard for iOS and Mac OS
     </h2>
-    <p class="text-grayish-blue">
+    <p class="text-grayish-blue lg:px-32">
       Available for free on the App Store. Download for Mac or iOS, sync with
       iCloud and you’re ready to start adding to your clipboard.
     </p>
   </div>
-  <div class="py-12 flex flex-col gap-4 w-full">
+  <div class="py-12 flex flex-col gap-4 w-full lg:flex-row lg:justify-center">
     <Button
       textButton={"Download for iOS"}
       ,
       colorBg={"bg-strong-cyan"}
       ,
-      borderBg={"[#1b9685]"}
+      borderBg={"border-[#1b9685]"}
       ,
-      hoverBg={"[#2cd1b9]"}
+      hoverBg={"hover:bg-[#2cd1b9]"}
     />
     <Button
       textButton={"Download for Mac"}
       ,
       colorBg={"bg-light-blue"}
       ,
-      borderBg={"[#4754b7]"}
+      borderBg={"border-[#4754b7]"}
       ,
-      hoverBg={"[#808eff]"}
+      hoverBg={"hover:bg-[#808eff]"}
     />
   </div>
 </section>
