@@ -26,7 +26,7 @@ const { title } = Astro.props;
 
   <style>
     .bg-hero {
-      background-image: url("images/bg-header-mobile.png");
+      background-image: url("/images/bg-header-mobile.png");
       background-repeat: no-repeat;
       width: 100%;
       background-size: 100% auto;
@@ -34,14 +34,14 @@ const { title } = Astro.props;
 
     @media (min-width: 768px) {
       .bg-hero {
-        background-image: url("images/bg-header-desktop.png");
+        background-image: url("/images/bg-header-desktop.png");
         background-size: auto;
       }
     }
   </style>
 
   <body class="font-bai-jamjuree">
-    <main class="container mx-auto w-full pb-12 lg:px-0 bg-hero">
+    <main class="container mx-auto w-full px-6 pb-12 lg:px-0 bg-hero">
       <slot />
     </main>
     <Footer />
